@@ -1,0 +1,69 @@
+{
+  "steps": [
+    {
+      "waitLoader": true,
+      "shot": "01_Menu"
+    },
+    {
+      "tapFrac": [
+        0.1852,
+        0.8674
+      ],
+      "label": "TRAIL MAP",
+      "wait": 3,
+      "shot": "02_StageMap"
+    },
+    {
+      "tapFrac": [
+        0.1216,
+        0.0522
+      ],
+      "label": "BACK",
+      "wait": 2
+    },
+    {
+      "tapFrac": [
+        0.3953,
+        0.8674
+      ],
+      "label": "OBJECTIVES",
+      "wait": 3,
+      "shot": "03_Objectives"
+    },
+    {
+      "tapFrac": [
+        0.1216,
+        0.0522
+      ],
+      "label": "BACK",
+      "wait": 2
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.758
+      ],
+      "label": "START CLIMB",
+      "waitLoader": true,
+      "shot": "04_CoinRun"
+    },
+    {
+      "tapFrac": [
+        0.78,
+        0.6246
+      ],
+      "label": "HOP RIGHT",
+      "wait": 7,
+      "shot": "05_CoinRun_Chain"
+    },
+    {
+      "tapFrac": [
+        0.9026,
+        0.0493
+      ],
+      "label": "PAUSE",
+      "wait": 3,
+      "shot": "06_PausePop"
+    }
+  ]
+}
