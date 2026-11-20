@@ -1,0 +1,53 @@
+{
+  "note": "tapFrac = screen fraction from the TOP-LEFT. Derived from the rects this codegen actually writes, with the template's own conversion: the CanvasScaler is Expand @1242x2688, so on the 1080x2400 capture device the canvas resolves to 1242x2760 and SafeArea/AspecterSA (FitInParent 1242/2688) letterboxes the panel by 36 units top and bottom. tapFracX = panelX / 1242, tapFracY = (36 + (2688 - panelY)) / 2760 with panelY measured from the BOTTOM. Denominator 2760, NOT 2688.",
+  "steps": [
+    {
+      "waitLoader": true,
+      "wait": 2.0,
+      "shot": "01_Home"
+    },
+    {
+      "tapFrac": [0.500000, 0.650000],
+      "label": "STAGE MAP",
+      "wait": 2.0,
+      "shot": "02_StageMap"
+    },
+    {
+      "tapFrac": [0.500000, 0.689855],
+      "label": "START STAGE",
+      "waitLoader": true,
+      "wait": 7.0,
+      "shot": "03_CoinRun_start"
+    },
+    {
+      "tapFrac": [0.780193, 0.552174],
+      "label": "LANE RIGHT",
+      "wait": 3.5,
+      "shot": "04_CoinRun_lane"
+    },
+    {
+      "tapFrac": [0.853462, 0.896377],
+      "label": "SURGE",
+      "wait": 2.5,
+      "shot": "05_CoinRun_surge"
+    },
+    {
+      "tapFrac": [0.885346, 0.173732],
+      "label": "PAUSE",
+      "wait": 2.0,
+      "shot": "06_TrailHeld"
+    },
+    {
+      "tapFrac": [0.693237, 0.666667],
+      "label": "END RUN",
+      "wait": 2.5,
+      "shot": "07_RunSummary"
+    },
+    {
+      "tapFrac": [0.306763, 0.666667],
+      "label": "RUN AGAIN",
+      "wait": 6.0,
+      "shot": "08_CoinRun_again"
+    }
+  ]
+}

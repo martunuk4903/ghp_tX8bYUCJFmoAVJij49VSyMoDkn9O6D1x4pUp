@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "action": false,
+  "at": 1795113193,
+  "jiraKey": "ANDROID-4063",
+  "verified": "ok",
+  "fixes": [
+    {
+      "field": "app-version",
+      "from": "1.0.0Developer Notes:*Builds for the first upload (name patt…",
+      "to": "1.0.0",
+      "why": "cleaned: spaces, quotes, look-alike letters or text glued after the value"
+    }
+  ],
+  "problems": []
+}

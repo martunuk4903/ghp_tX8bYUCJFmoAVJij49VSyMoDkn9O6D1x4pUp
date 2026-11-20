@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "prompt": "Codex-generated bg for V0lcanoTrailC0in"
+    },
+    {
+      "name": "button_rect",
+      "type": "button",
+      "prompt": "Codex-generated button for V0lcanoTrailC0in"
+    },
+    {
+      "name": "button_round",
+      "type": "button",
+      "prompt": "Codex-generated button for V0lcanoTrailC0in"
+    },
+    {
+      "name": "icon_home",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for V0lcanoTrailC0in"
+    },
+    {
+      "name": "icon_pause",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for V0lcanoTrailC0in"
+    },
+    {
+      "name": "logo",
+      "type": "icon",
+      "prompt": "Codex-generated icon for V0lcanoTrailC0in"
+    },
+    {
+      "name": "sprite_1",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for V0lcanoTrailC0in"
+    },
+    {
+      "name": "sprite_2",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for V0lcanoTrailC0in"
+    },
+    {
+      "name": "sprite_3",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for V0lcanoTrailC0in"
+    },
+    {
+      "name": "sprite_4",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for V0lcanoTrailC0in"
+    },
+    {
+      "name": "sprite_5",
+      "type": "sprite",
+      "prompt": "Codex-generated sprite for V0lcanoTrailC0in"
+    },
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "prompt": "Codex-generated bg for V0lcanoTrailC0in (game background reused for the menu)"
+    }
+  ]
+}
